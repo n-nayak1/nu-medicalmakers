@@ -856,22 +856,9 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(.8);
+  filter: brightness(.7);
   z-index: -1; /* Push behind the text */
 }
-/*
-
-.hero-section::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);  Optional dark overlay for text readability 
-  z-index: 0;
-  background-size: 150%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-*/
 
 
 
