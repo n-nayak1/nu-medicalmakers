@@ -455,27 +455,47 @@ footer {
 }
 
 /* General members grid (centered three columns) */
+/* GENERAL MEMBERS - default desktop layout */
+/* GENERAL MEMBERS GRID – Desktop */
 .general-members-grid {
   display: flex;
-  justify-content: center;        /* centers the columns in the page */
-  gap: 4rem;                      /* space between columns */
-  padding-top: 1rem;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .general-members-grid ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;             /* center text inside each column */
-  min-width: 150px;
+  flex: 1;
 }
 
 .general-members-grid li {
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
-  color: #333;
+  margin: 6px 0;
+  font-family: 'Inter', sans-serif;
 }
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .general-members-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .general-members-grid ul {
+    display: contents;      /* Combine all <ul>s into a flat list visually */
+  }
+
+  .general-members-grid li {
+    margin: 4px 0;
+  }
+}
+
 
 .contact-section {
   max-width: 600px;
