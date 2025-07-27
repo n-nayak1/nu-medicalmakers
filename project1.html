@@ -15,13 +15,13 @@
 
   <main class="project-detail">
     <div class="project-hero">
-      <img src="https://static.wixstatic.com/media/9b0f0d_fd7eea7ef67f46e7ae62ddf9fd3cf6a8~mv2.jpeg" alt="MILO" />
+      <img src="images/milo_updated.png" alt="MILO" />
     </div>
 
     <section class="project-text">
       <h1>MILO: Voice-Controlled Robotic Arm</h1>
       <p class="project-description">
-        MILO is a modular robotic assistant designed to support patients with limited mobility in hospital and rehabilitation settings. The arm responds to voice commands and can help reposition lightweight objects, press buttons, or assist with hygiene and comfort needs, improving independence and reducing caregiver burden.
+        MILO is a modular robotic assistant designed to support patients with limited mobility in hospital and rehabilitation settings, while reducing nurse workload. Nurses mount mobile devices or tablets to the arm, and patients can utilize voice commands to adjust its position as needed. MILO can also dynamically adjust its alignment as patients shift to keep their devices aligned with their line-of-sight.
       </p>
 
       <h2>Project Goals</h2>
@@ -34,8 +34,9 @@
       <h2>Design Highlights</h2>
       <ul>
         <li>MediaPipe-based face tracking for dynamic positioning.</li>
+        <li>Real-time speech recognition neural network with keyword detection for voice commands.</li>
         <li>Custom SCARA arm with safety constraints and feedback control.</li>
-        <li>ROS integration with real-time speech and LiDAR input.</li>
+        <li>ROS integration with real-time speech and ToF distance input.</li>
       </ul>
     </section>
   </main>
