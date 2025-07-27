@@ -120,4 +120,20 @@ function toggleMenu() {
 }
 
 
+function isMobileDevice() {
+  return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const instruction = document.getElementById("tap-instruction");
+  if (instruction) {
+    instruction.textContent = isMobileDevice()
+      ? "Tap on a profile to learn more."
+      : "Click on a profile to learn more.";
+  }
+});
+
+
+
+
 

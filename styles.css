@@ -971,3 +971,16 @@ footer {
     opacity: 1;
   }
 }
+
+.tap-instruction {
+  text-align: center;
+  font-size: 1.05rem; /* slightly bigger */
+  color: #000000;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+}
+
+
+
