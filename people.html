@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="images/medmakers%20favicon.png" type="image/png">
+  <title>People | Northwestern Medical Makers</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar-container"></div>
+    <script src="navbar.js"></script>
+
+
+  <main class="team-page">
+    <h1>Meet the Team</h1>
+
+    <section class="team-section">
+      <h2>Co-Presidents</h2>
+      <div class="team-grid">
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('nikhil')" style="background-image: url('images/otter.jpg');"></div>
+          <h3>Nikhil Nayak</h3>
+          <p>Co-President</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('nathaniel')" style="background-image: url('images/nathaniel_rogers.jpeg');"></div>
+          <h3>Nathaniel Rogers</h3>
+          <p>Co-President</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <h2>Executive Board</h2>
+      <div class="team-grid">
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('ryan')" style="background-image: url('images/ryan_xu.jpeg');"></div>
+          <h3>Ryan Xu</h3>
+          <p>Treasurer</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('jackson')" style="background-image: url('images/jackson_wang.jpeg');"></div>
+          <h3>Jackson Wang</h3>
+          <p>Secretary</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <h2>Project Managers</h2>
+      <div class="team-grid-pm">
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('victoria')" style="background-image: url('images/victoria_israel.jpeg');"></div>
+          <h3>Victoria Israel</h3>
+          <p>Project Manager – MILO</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('eva')" style="background-image: url('images/eva_potjer.jpeg');"></div>
+          <h3>Eva Potjer</h3>
+          <p>Project Manager – Team 1</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('meghna')" style="background-image: url('images/meghna_sundaram.jpeg');"></div>
+          <h3>Meghna Sundaram</h3>
+          <p>Project Manager – Team 1</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('travis')" style="background-image: url('images/travis_saltzman.jpeg');"></div>
+          <h3>Travis Saltzman</h3>
+          <p>Project Manager – Team 1</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('david')" style="background-image: url('images/david_wong.jpeg');"></div>
+          <h3>David Wong</h3>
+          <p>Project Manager – Team 2</p>
+        </div>
+        <div class="member-card">
+          <div class="profile-pic" onclick="openBio('ella')" style="background-image: url('images/ella_meek.jpeg');"></div>
+          <h3>Ella Meek</h3>
+          <p>Project Manager – Team 2</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <h2>General Members</h2>
+      <div class="general-members-grid">
+        <ul>
+          <li>Alex Smith</li>
+          <li>Ben Lee</li>
+          <li>Claire Johnson</li>
+          <li>Daniel Kim</li>
+        </ul>
+        <ul>
+          <li>Emily Zhang</li>
+          <li>Felix Nguyen</li>
+          <li>Grace Patel</li>
+          <li>Hannah Cooper</li>
+        </ul>
+        <ul>
+          <li>Ian Chen</li>
+          <li>Jane Doe</li>
+          <li>Kevin Liu</li>
+          <li>Lisa Tran</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+    
+  <div id="bio-overlay" onclick="closeBio()"></div>
+
+    <div id="bio-popup">
+      <button id="close-btn" onclick="closeBio()">×</button>
+      <div id="bio-content">
+        <h2 id="bio-name">Name</h2>
+        <p id="bio-role">Role</p>
+        <p id="bio-text">Bio goes here.</p>
+      </div>
+    </div>
+
+
+  <footer>
+    <p>&copy; 2025 Northwestern Medical Makers. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
