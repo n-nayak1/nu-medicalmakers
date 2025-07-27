@@ -750,6 +750,23 @@ footer {
   color: white;
 }
 
+.bio-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.bio-icons a i {
+  font-size: 1.4rem;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.bio-icons a:hover i {
+  color: #4E2A84;
+}
+
 
 
 
