@@ -767,6 +767,85 @@ footer {
   color: #4E2A84;
 }
 
+.project-gallery {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.project-gallery h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #4E2A84;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 0 1rem;
+}
+
+.project-card {
+  position: relative;
+  text-align: center;
+}
+
+.project-card a {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  will-change: transform;  /* ← helps smooth hover + scroll */
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(78, 42, 132, 0.75);
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-card a:hover img {
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.project-card a:hover .overlay {
+  opacity: 1;
+}
+
+.project-label {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #222;
+}
+
+.project-card .overlay {
+  z-index: 1;
+}
+
+
 
 
 
