@@ -1013,6 +1013,45 @@ footer {
   box-shadow: 0 4px 10px rgba(78,42,132,0.18);
 }
 
+.mission .mission-points {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+.mission .mission-points li {
+  margin: 0.4rem 0;
+  line-height: 1.4;
+}
+
+.join-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.join-button {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background-color: #4E2A84; /* Northwestern purple */
+  border: 2px solid #4E2A84;
+  border-radius: 50px; /* Fully rounded look */
+  transition: all 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: white;
+  color: #4E2A84;
+}
+
+
+
+
+
+
 
 
 
