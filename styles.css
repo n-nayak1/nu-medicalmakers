@@ -1046,9 +1046,49 @@ footer {
   background-color: white;
   color: #4E2A84;
 }
+/* Scroll container */
+.footer-logos-scroller {
+  overflow-x: auto;                 /* enable horizontal scroll */
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 12px 12px;
+  scrollbar-width: thin;            /* Firefox */
+  scrollbar-color: rgba(0,0,0,.25) transparent;
+}
 
+/* Optional: slimmer scrollbar for WebKit */
+.footer-logos-scroller::-webkit-scrollbar { height: 6px; }
+.footer-logos-scroller::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.25);
+  border-radius: 3px;
+}
 
+/* The rail that holds logos */
+.footer-logos-rail {
+  display: inline-flex;             /* shrink-to-fit so it can be centered */
+  gap: 24px;
+  flex-wrap: nowrap;                /* single row */
+  margin: 0 auto;                   /* center when it fits */
+  scroll-snap-type: x proximity;    /* nice mobile snapping */
+}
 
+/* Each logo link */
+.footer-logos-rail a {
+  flex: 0 0 auto;                   /* prevent shrinking */
+  scroll-snap-align: center;
+  text-decoration: none;
+}
+
+/* Logo images */
+.footer-logos-rail img {
+  height: 50px;                     /* adjust as needed */
+  max-width: 160px;
+  object-fit: contain;
+  transition: transform .2s ease;
+}
+
+.footer-logos-rail img:hover {
+  transform: scale(1.06);
+}
 
 
 
