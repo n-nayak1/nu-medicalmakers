@@ -46,7 +46,7 @@ const bios = {
   },
   eva: {
     name: "Eva Potjer",
-    role: "Project Manager - Team 1",
+    role: "Project Manager - SlideBoard",
     text: "[insert bio here]",
     image: "images/eva_potjer.jpeg",
     linkedin: "https://www.linkedin.com/in/eva-potjer-617598252",
@@ -54,7 +54,7 @@ const bios = {
   },
   meghna: {
     name: "Meghna Sundaram",
-    role: "Project Manager - Team 1",
+    role: "Project Manager - SlideBoard",
     text: "Junior studying Mechanical Engineering. She is specifically interested in design and CAD modeling for robotics and biomedical applications. For fun, she loves to bake, go on long runs and hang out with her friends.",
     image: "images/meghna_sundaram.jpeg",
     linkedin: "https://www.linkedin.com/in/meghna-sundaram-32973b283",
