@@ -15,7 +15,7 @@ const bios = {
   nathaniel: {
     name: "Nathaniel Rogers",
     role: "Co-President",
-    text: "[insert bio here]",
+    text: "Hello! I’m Nathaniel, and I’m a junior at NU pursuing a degree in Biomedical Engineering and the Segal Design Certificate. I’m especially interested in medical devices and the design engineering behind them. Extracurricularly, I enjoy playing squash, reading, and long, exploratory walks. Please stop me on a path or send an email/message if you have questions or comments about Medical Makers, BME, or anything else I mentioned above.",
     image: "images/nathaniel_rogers.jpeg",
     linkedin: "https://www.linkedin.com/in/nathaniel-r0gers/",
     email: "mailto:NathanielRogers2027@u.northwestern.edu"
@@ -23,7 +23,7 @@ const bios = {
   ryan: {
     name: "Ryan Xu",
     role: "Treasurer",
-    text: "[insert bio here]",
+    text: "Hi my name is Ryan and I’m from the Bay Area! I’m a rising sophomore and am getting my BS in biomedical engineering. In my spare time I love gardening and practicing kung fu. Feel free to reach out!",
     image: "images/ryan_xu.jpeg",
     linkedin: "https://www.linkedin.com/in/ryan-xu-71983032b",
     email: "mailto:RyanXu2028@u.northwestern.edu"
@@ -31,7 +31,7 @@ const bios = {
   jackson: {
     name: "Jackson Wang",
     role: "Secretary",
-    text: "[insert bio here]",
+    text: "Hi, my name is Jackson Wang and I’m from Nashville TN. I am a sophomore studying BME and in my free time I like to do photography and go hiking.",
     image: "images/jackson_wang.jpeg",
     linkedin: "https://www.linkedin.com/in/jackson-wang-899a25172",
     email: "mailto:JacksonWang2028@u.northwestern.edu"
@@ -55,7 +55,7 @@ const bios = {
   meghna: {
     name: "Meghna Sundaram",
     role: "Project Manager - Team 1",
-    text: "[insert bio here]",
+    text: "Junior studying Mechanical Engineering. She is specifically interested in design and CAD modeling for robotics and biomedical applications. For fun, she loves to bake, go on long runs and hang out with her friends.",
     image: "images/meghna_sundaram.jpeg",
     linkedin: "https://www.linkedin.com/in/meghna-sundaram-32973b283",
     email: "mailto:MeghnaSundaram2027@u.northwestern.edu"
@@ -79,7 +79,7 @@ const bios = {
   ella: {
     name: "Ella Meek",
     role: "Project Manager - Team 2",
-    text: "[insert bio here]",
+    text: "Hi, I’m Ella and I’m from South Florida. I’m a Sophomore studying biomedical engineering with an interest in bionic prosthetic limbs. My favorite thing about Medical Makers is that our projects bridge engineering and patient care. Outside of school, I enjoy playing volleyball, hanging out with friends, and trying new places to eat!",
     image: "images/ella_meek.jpeg",
     linkedin: "https://www.linkedin.com/in/ella-meek-64a46631b",
     email: "mailto:EllaMeek2028@u.northwestern.edu"
@@ -130,6 +130,15 @@ document.addEventListener("DOMContentLoaded", function () {
     instruction.textContent = isMobileDevice()
       ? "Tap on a profile to learn more."
       : "Click on a profile to learn more.";
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const instruction = document.getElementById("tap-instruction-project");
+  if (instruction) {
+    instruction.textContent = isMobileDevice()
+      ? "Tap on a project to learn more."
+      : "Click on a project to learn more.";
   }
 });
 
