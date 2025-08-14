@@ -1090,6 +1090,15 @@ footer {
   transform: scale(1.06);
 }
 
+.footer-heading {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  color: #171717; /* NU purple */
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
 
 
 

@@ -39,7 +39,7 @@ const bios = {
   victoria: {
     name: "Victoria Israel",
     role: "Project Manager - MILO",
-    text: "[insert bio here]",
+    text: "Hey everyone! I'm a senior in the BS/MS program, majoring in Mechanical Engineering. I'm passionate about building solutions and tackling new challenges. I'm always happy to share advice, whether it's about majors, clubs, or life in general, so don't hesitate to reach out and send me an email!",
     image: "images/victoria_israel.jpeg",
     linkedin: "https://www.linkedin.com/in/victoriaisrael",
     email: "mailto:VictoriaIsrael2026@u.northwestern.edu"
@@ -47,7 +47,7 @@ const bios = {
   eva: {
     name: "Eva Potjer",
     role: "Project Manager - SlideBoard",
-    text: "[insert bio here]",
+    text: "Hi! I'm Eva and I'm a senior at Northwestern studying Biomedical Engineering and Neuroscience!",
     image: "images/eva_potjer.jpeg",
     linkedin: "https://www.linkedin.com/in/eva-potjer-617598252",
     email: "mailto:EvaPotjer2026@u.northwestern.edu"
@@ -63,7 +63,7 @@ const bios = {
   travis: {
     name: "Travis Saltzman",
     role: "Project Manager - Team 1",
-    text: "[insert bio here]",
+    text: "Hey! I'm Travis and I'm from Denver, Colorado. I am a Junior that transferred to NU last year majoring in Biomedical Engineering with a pre-medical designation. I'm passionate about work involving medical devices and biosensors, with a specific interest in combating neurological conditions. In my free time, I like to workout, play basketball, or just hang out with friends. If you have any questions, feel free to reach out!",
     image: "images/travis_saltzman.jpeg",
     linkedin: "https://www.linkedin.com/in/travis-saltzman-9a0b7225a",
     email: "mailto:TravisSaltzman2027@u.northwestern.edu"
@@ -71,7 +71,7 @@ const bios = {
   david: {
     name: "David Wong",
     role: "Project Manager - Team 2",
-    text: "[insert bio here]",
+    text: "Hi! I'm David and I'm a junior at Northwestern studying Biomedical Engineering and Computer Science!",
     image: "images/david_wong.jpeg",
     linkedin: "https://www.linkedin.com/in/david-c-w-nu2027/",
     email: "mailto:DavidWong2027@u.northwestern.edu"
